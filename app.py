@@ -24,7 +24,7 @@ col1, col2 = st.columns(2)
 with col1:
     st.title("Chloe Julia S. Geonzon")
     st.write("3rd Year BS Computer Science, Section F2")
-    st.write("*Remember there is always grass to touch, not only your computer screen*")
+    st.write(">*Remember there is always grass to touch, not only your computer screen*")
     st.divider()
     st.subheader("Biography")
     st.write("Currently a 3rd year Computer Science in Cebu Institute of Technology-University who is exploring the different advancements and progressions of technology and AI. I aspire to be someone who will dig deeper into the world of Data Analysis and Science, Artificial Intelligence (AI), Game Development, and Web Development.")
