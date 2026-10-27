@@ -394,13 +394,26 @@ with tab_repositories:
                     icon="🔗"
                     ) 
 
-    _, col7, _ = st.columns([0.3, 0.5,  0.3], gap="small")
+    col7, col8 = st.columns(2, border=True)
     with col7:
-         with st.container(border=True):
+   
             st.markdown("**G-Split**", text_alignment="center")
             st.image(os.path.join(
                 os.path.dirname(os.path.abspath(__file__)),
                 "assets",
                 "G-split.png"  
-                ))
+                ), use_container_width=True)
             st.markdown("**Description:** An `automated split-save QR wallet` for karenderia owners that instantly partitions incoming cash-ins and digital payments into designated expense jars, safeguarding operating capital from impulse spending.")
+            st.write("")
+            st.write("")
+            st.write("")
+        
+    with col8:
+
+                st.markdown("**SnappidySnap!**", text_alignment="center")
+                st.image(os.path.join(
+                                os.path.dirname(os.path.abspath(__file__)),
+                                "assets",
+                                "SnappidySnap.png"  
+                                ))
+                st.markdown("**Description:** Snappidy Snap is a `retro-inspired, browser-based digital photo booth.` It lets users select a custom frame, take a timed series of three webcam snapshots, decorate their strip with draggable and resizable emoji stickers, and watch their personalized strip come to life through an animated mechanical printer before downloading the finished keepsake.")
