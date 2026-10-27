@@ -13,7 +13,7 @@ layout="wide",
 st.sidebar.image(os.path.join(
     os.path.dirname(os.path.abspath(__file__)),
     "assets",
-    "Geonzon_pic.jpg"  
+    "Geonzon_sidebarPic.jpg"  
     ))
 st.sidebar.markdown("**Name:** Chloe Julia S. Geonzon")
 st.sidebar.markdown("**Section:** F2")
